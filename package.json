@@ -1,0 +1,25 @@
+{
+  "name": "content-matching-engine",
+  "version": "1.0.0",
+  "description": "Understand an image library, organize it automatically, and match the right image to the right article",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "nodemon ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.5.1",
+    "dotenv": "^17.4.2",
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "express": "^5.2.1"
+  }
+}

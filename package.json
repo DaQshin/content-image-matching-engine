@@ -4,7 +4,7 @@
   "description": "Understand an image library, organize it automatically, and match the right image to the right article",
   "scripts": {
     "build": "npx tsc",
-    "dev": "nodemon ./dist/server.js"
+    "dev": "npx tsc && nodemon ./dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,10 +16,15 @@
     "dotenv": "^17.4.2",
     "morgan": "^1.12.1",
     "nodemon": "^3.1.14",
+    "tsx": "^4.23.13",
     "typescript": "^7.0.2"
   },
   "dependencies": {
     "@google/genai": "^2.22.0",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "inngest": "^4.20.0",
+    "ollama": "^0.6.3",
+    "pg": "^8.23.0",
+    "zod": "^4.6.5"
   }
 }

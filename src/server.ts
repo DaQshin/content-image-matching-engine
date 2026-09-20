@@ -1,3 +1,7 @@
+import dns from "dns";
+
+dns.setDefaultResultOrder("ipv4first");
+
 import { app } from "./app.js";
 
 const PORT: number = 3000;
